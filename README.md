@@ -15,12 +15,12 @@ HOW TO RUN APP:
 3. Type flask run (from root repo directory)
 
 HOW TO RUN TESTS:
-From root repo directory type: pytest tests/
+ - From root repo directory type: pytest tests/
 
 LINTER AND FORMATTER:
-linter on demand - sh scripts/style_checker.sh
-formatter - sh scripts/format_code.sh
+ - linter on demand - sh scripts/style_checker.sh
+ - formatter - sh scripts/format_code.sh
 
 PRE-PUSH LINTER:
-Please copy contents of the file scripts/style_checker.sh to .git/hooks/pre-push
-Then make sure that .git/hooks/pre-push is executable (chmod +x)
+1. Please copy contents of the file scripts/style_checker.sh to .git/hooks/pre-push
+2. Then make sure that .git/hooks/pre-push is executable (chmod +x)
