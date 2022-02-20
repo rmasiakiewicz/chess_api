@@ -1,5 +1,5 @@
 # chess_api
-Simple rest app that helps chess game. You can use two endpoints.
+Simple rest app that helps in a chess game. You can use two endpoints.
 1. /api/v1/<chess_figure>/<color>/<current_field> - gives all possible moves for a given figure assuming the board is empty
 2. /api/v1/<chess_figure>/<color>/<current_field>/<destination_field> - validate if move is possible
 
