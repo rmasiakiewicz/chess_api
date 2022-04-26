@@ -1,7 +1,7 @@
 # chess_api
 Simple rest app that helps in a chess game. You can use two endpoints.
-1. /api/v1/<chess_figure>/<color>/<current_field> - gives all possible moves for a given figure assuming the board is empty
-2. /api/v1/<chess_figure>/<color>/<current_field>/<destination_field> - validate if move is possible
+1. /api/v1/<chess_figure>/<color_number>/<current_field> - gives all possible moves for a given figure assuming the board is empty
+2. /api/v1/<chess_figure>/<color_number>/<current_field>/<destination_field> - validate if move is possible
 
 expected chess figures names - king, queen, bishop, rook, knight, pawn
 expected colors - 1 (WHITE), 2 (BLACK)
